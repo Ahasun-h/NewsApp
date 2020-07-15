@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/all"
+            android:title="All News"
+            android:icon="@drawable/ic_blog"/>
+
+        <item
+            android:id="@+id/business"
+            android:title="Business News"
+            android:icon="@drawable/ic_broadcast"/>
+
+        <item
+            android:id="@+id/popular"
+            android:title="Popular News"
+            android:icon="@drawable/ic_magazine"/>
+
+        <item
+            android:id="@+id/techCrunch"
+            android:title="TechCrunch"
+            android:icon="@drawable/ic_tablet"/>
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/help"
+                android:icon="@drawable/ic_help"
+                android:title="Help" />
+        </menu>
+    </item>
+
+
+
+
+</menu>
